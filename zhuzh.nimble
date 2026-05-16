@@ -1,5 +1,4 @@
 # Package
-
 version       = "0.1.0"
 author        = "Tommy McMichen"
 description   = "Diagram editor built for animations that don't hurt your soul"
@@ -10,5 +9,8 @@ bin           = @["zhuzh"]
 
 
 # Dependencies
-
 requires "nim >= 2.2.10"
+
+
+# Build
+binDir = "build"
